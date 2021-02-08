@@ -19,7 +19,7 @@ for run in range(3):
     print(f"Wow, that was fast. It took {reaction_time:.3f}")
     #print(sentinal)
     average_time = total_time / sentinel
-    sentinal += 1
+    sentinel += 1
     print("-" * 25)
     print(f"Average time was {average_time:.3f}")
 
